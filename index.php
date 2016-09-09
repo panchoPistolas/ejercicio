@@ -1,5 +1,5 @@
 <?php
-switch (@$_GET['do'])
+switch (@$_GET['do'] and !isset($_POST['do']))
  {
 
  case "send":
