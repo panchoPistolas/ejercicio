@@ -1,6 +1,6 @@
 <?php
 
-switch (@$_GET['do'])
+switch (!isset($_POST['do']))
 {
 
     case "send":
@@ -136,6 +136,7 @@ switch (@$_GET['do'])
      
     default: break;
     
+
  }
 ?>
 
