@@ -2,7 +2,6 @@
 
 switch (!isset($_POST['do']))
 {
-
     case "send":
 
         $aName = $_POST['aName'];
