@@ -1,52 +1,52 @@
 <?php
 
-switch (!isset($_POST['do']))
+switch (!isset($_PUT['do']))
 {
     case "send":
 
-        $aName = $_POST['aName'];
-        $aCo = $_POST['aCo'];
-        $aEmail = $_POST['aEmail'];
+        $aName = $_PUT['aName'];
+        $aCo = $_PUT['aCo'];
+        $aEmail = $_PUT['aEmail'];
         
-        $cCo = $_POST['cCo'];
-        $cAddr1 = $_POST['cAddr1'];
-        $cAddr2 = $_POST['cAddr2'];
-        $cCity = $_POST['cCity'];
-        $cState = $_POST['cState'];
-        $cZip = $_POST['cZip'];
-        $cName = $_POST['cName'];
-        $cPhone = $_POST['cPhone'];
+        $cCo = $_PUT['cCo'];
+        $cAddr1 = $_PUT['cAddr1'];
+        $cAddr2 = $_PUT['cAddr2'];
+        $cCity = $_PUT['cCity'];
+        $cState = $_PUT['cState'];
+        $cZip = $_PUT['cZip'];
+        $cName = $_PUT['cName'];
+        $cPhone = $_PUT['cPhone'];
 
-        $sCo = $_POST['sCo'];
-        $sAddr1 = $_POST['sAddr1'];
-        $sAddr2 = $_POST['sAddr2'];
-        $sCity = $_POST['sCity'];
-        $sState = $_POST['sState'];
-        $sZip = $_POST['sZip'];
+        $sCo = $_PUT['sCo'];
+        $sAddr1 = $_PUT['sAddr1'];
+        $sAddr2 = $_PUT['sAddr2'];
+        $sCity = $_PUT['sCity'];
+        $sState = $_PUT['sState'];
+        $sZip = $_PUT['sZip'];
 
-        $fInst = $_POST['fInst'];
-        $tDue = $_POST['tDue'];
+        $fInst = $_PUT['fInst'];
+        $tDue = $_PUT['tDue'];
 
-        $Qnty1  = $_POST['Qnty1']; $Item1  = $_POST['Item1']; $Unit1  = $_POST['Unit1']; $Amt1  = $_POST['Amt1'];
-        $Qnty2  = $_POST['Qnty2']; $Item2  = $_POST['Item2']; $Unit2  = $_POST['Unit2']; $Amt2  = $_POST['Amt2'];
-        $Qnty3  = $_POST['Qnty3']; $Item3  = $_POST['Item3']; $Unit3  = $_POST['Unit3']; $Amt3  = $_POST['Amt3'];
-        $Qnty4  = $_POST['Qnty4']; $Item4  = $_POST['Item4']; $Unit4  = $_POST['Unit4']; $Amt4  = $_POST['Amt4'];
-        $Qnty5  = $_POST['Qnty5']; $Item5  = $_POST['Item5']; $Unit5  = $_POST['Unit5']; $Amt5  = $_POST['Amt5'];
-        $Qnty6  = $_POST['Qnty6']; $Item6  = $_POST['Item6']; $Unit6  = $_POST['Unit6']; $Amt6  = $_POST['Amt6'];
-        $Qnty7  = $_POST['Qnty7']; $Item7  = $_POST['Item7']; $Unit7  = $_POST['Unit7']; $Amt7  = $_POST['Amt7'];
-        $Qnty8  = $_POST['Qnty8']; $Item8  = $_POST['Item8']; $Unit8  = $_POST['Unit8']; $Amt8  = $_POST['Amt8'];
-        $Qnty9  = $_POST['Qnty9']; $Item9  = $_POST['Item9']; $Unit9  = $_POST['Unit9']; $Amt9  = $_POST['Amt9'];
-        $Qnty10 = $_POST['Qnty10'];$Item10 = $_POST['Item10'];$Unit10 = $_POST['Unit10'];$Amt10 = $_POST['Amt10'];
-        $Qnty11 = $_POST['Qnty11'];$Item11 = $_POST['Item11'];$Unit11 = $_POST['Unit11'];$Amt11 = $_POST['Amt11'];
-        $Qnty12 = $_POST['Qnty12'];$Item12 = $_POST['Item12'];$Unit12 = $_POST['Unit12'];$Amt12 = $_POST['Amt12'];
-        $Qnty13 = $_POST['Qnty13'];$Item13 = $_POST['Item13'];$Unit13 = $_POST['Unit13'];$Amt13 = $_POST['Amt13'];
-        $Qnty14 = $_POST['Qnty14'];$Item14 = $_POST['Item14'];$Unit14 = $_POST['Unit14'];$Amt14 = $_POST['Amt14'];
-        $Qnty15 = $_POST['Qnty15'];$Item15 = $_POST['Item15'];$Unit15 = $_POST['Unit15'];$Amt15 = $_POST['Amt15'];
-        $Qnty16 = $_POST['Qnty16'];$Item16 = $_POST['Item16'];$Unit16 = $_POST['Unit16'];$Amt16 = $_POST['Amt16'];
-        $Qnty17 = $_POST['Qnty17'];$Item17 = $_POST['Item17'];$Unit17 = $_POST['Unit17'];$Amt17 = $_POST['Amt17'];
-        $Qnty18 = $_POST['Qnty18'];$Item18 = $_POST['Item18'];$Unit18 = $_POST['Unit18'];$Amt18 = $_POST['Amt18'];
-        $Qnty19 = $_POST['Qnty19'];$Item19 = $_POST['Item19'];$Unit19 = $_POST['Unit19'];$Amt19 = $_POST['Amt19'];
-        $Qnty20 = $_POST['Qnty20'];$Item20 = $_POST['Item20'];$Unit20 = $_POST['Unit20'];$Amt20 = $_POST['Amt20'];
+        $Qnty1  = $_PUT['Qnty1']; $Item1  = $_PUT['Item1']; $Unit1  = $_PUT['Unit1']; $Amt1  = $_PUT['Amt1'];
+        $Qnty2  = $_PUT['Qnty2']; $Item2  = $_PUT['Item2']; $Unit2  = $_PUT['Unit2']; $Amt2  = $_PUT['Amt2'];
+        $Qnty3  = $_PUT['Qnty3']; $Item3  = $_PUT['Item3']; $Unit3  = $_PUT['Unit3']; $Amt3  = $_PUT['Amt3'];
+        $Qnty4  = $_PUT['Qnty4']; $Item4  = $_PUT['Item4']; $Unit4  = $_PUT['Unit4']; $Amt4  = $_PUT['Amt4'];
+        $Qnty5  = $_PUT['Qnty5']; $Item5  = $_PUT['Item5']; $Unit5  = $_PUT['Unit5']; $Amt5  = $_PUT['Amt5'];
+        $Qnty6  = $_PUT['Qnty6']; $Item6  = $_PUT['Item6']; $Unit6  = $_PUT['Unit6']; $Amt6  = $_PUT['Amt6'];
+        $Qnty7  = $_PUT['Qnty7']; $Item7  = $_PUT['Item7']; $Unit7  = $_PUT['Unit7']; $Amt7  = $_PUT['Amt7'];
+        $Qnty8  = $_PUT['Qnty8']; $Item8  = $_PUT['Item8']; $Unit8  = $_PUT['Unit8']; $Amt8  = $_PUT['Amt8'];
+        $Qnty9  = $_PUT['Qnty9']; $Item9  = $_PUT['Item9']; $Unit9  = $_PUT['Unit9']; $Amt9  = $_PUT['Amt9'];
+        $Qnty10 = $_PUT['Qnty10'];$Item10 = $_PUT['Item10'];$Unit10 = $_PUT['Unit10'];$Amt10 = $_PUT['Amt10'];
+        $Qnty11 = $_PUT['Qnty11'];$Item11 = $_PUT['Item11'];$Unit11 = $_PUT['Unit11'];$Amt11 = $_PUT['Amt11'];
+        $Qnty12 = $_PUT['Qnty12'];$Item12 = $_PUT['Item12'];$Unit12 = $_PUT['Unit12'];$Amt12 = $_PUT['Amt12'];
+        $Qnty13 = $_PUT['Qnty13'];$Item13 = $_PUT['Item13'];$Unit13 = $_PUT['Unit13'];$Amt13 = $_PUT['Amt13'];
+        $Qnty14 = $_PUT['Qnty14'];$Item14 = $_PUT['Item14'];$Unit14 = $_PUT['Unit14'];$Amt14 = $_PUT['Amt14'];
+        $Qnty15 = $_PUT['Qnty15'];$Item15 = $_PUT['Item15'];$Unit15 = $_PUT['Unit15'];$Amt15 = $_PUT['Amt15'];
+        $Qnty16 = $_PUT['Qnty16'];$Item16 = $_PUT['Item16'];$Unit16 = $_PUT['Unit16'];$Amt16 = $_PUT['Amt16'];
+        $Qnty17 = $_PUT['Qnty17'];$Item17 = $_PUT['Item17'];$Unit17 = $_PUT['Unit17'];$Amt17 = $_PUT['Amt17'];
+        $Qnty18 = $_PUT['Qnty18'];$Item18 = $_PUT['Item18'];$Unit18 = $_PUT['Unit18'];$Amt18 = $_PUT['Amt18'];
+        $Qnty19 = $_PUT['Qnty19'];$Item19 = $_PUT['Item19'];$Unit19 = $_PUT['Unit19'];$Amt19 = $_PUT['Amt19'];
+        $Qnty20 = $_PUT['Qnty20'];$Item20 = $_PUT['Item20'];$Unit20 = $_PUT['Unit20'];$Amt20 = $_PUT['Amt20'];
 
         if ($secretinfo == "")
         {
