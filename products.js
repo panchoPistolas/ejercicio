@@ -77,5 +77,3 @@
 'Services','Wiring Drop','150.00',
 'Services','On-Site Training','75.00'
 );
-
-
